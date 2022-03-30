@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>this is math object tutorial</h1>
+    </div>
+    <script>
+        //printing the math object 
+        let m = Math;
+        console.log(m);
+
+        //printing the constant form math object
+        console.log("the value of math.E is", Math.E);
+        console.log("the value of math.LN2 is", Math.LN2);
+        console.log("the value of math. PI is", Math.PI);
+
+        //printing the function form math object
+        let a = 34.6543;
+        let b = 89.5432;
+        console.log("the value of a and b is", a, b);
+        console.log("the value of a and b rounded is", Math.round(a), Math.round(b));
+
+        // pow function
+        console.log("3raised power of 2 is", Math.pow(3, 2));
+        console.log("9raised power of 8 is", Math.pow(9, 8));
+        //square function
+        console.log("square root of 36 is", Math.sqrt(36))
+        console.log("square root of 36 is", Math.sqrt(64))
+        console.log("square root of 36 is", Math.sqrt(50))
+        //ceil and floor
+        console.log("5.8 ronded up to nearest integer is", Math.ceil(5.80))
+        console.log("5.8 ronded down to nearest integer is", Math.floor(5.80))
+        //Absolute(abs)function", Math.abs(5.60))
+        console.log("absolute value  5.6 is", Math.abs(5.60))
+        console.log("absolute value  -5.6 is", Math.abs(-5.60))
+
+        //tigonomatric function
+        console.log("the value of sin(pi)", Math.sin(Math.PI / 2));
+        console.log("the value of cos(pi)", Math.cos(Math.PI / 2));
+        console.log("the value of tan(pi)", Math.tan(Math.PI / 2));
+        //min and max function
+        console.log("min value of 4,5,6 is", Math.min(4, 5, 6))
+        console.log("min value of 14,5,16 is", Math.min(14, 5, 16))
+        console.log("max value of 4,5,6 is", Math.max(4, 5, 6))
+        console.log("max value of 14,5,16 is", Math.max(14, 5, 16))
+
+        // genrating random number
+        let r = Math.random();
+        console.log("the random number is", r);
+        //Random number beetween (a,b)=a+(b-a)*Math.random()
+        let a1 = 1;
+        let b1 = 100;
+        let r1_100 = a1 + (b1 - a1) * Math.random();
+        console.log("the random number is ", r1_100)
+        console.log("the random number is ", r)
+        let a2 = 50;
+        let b2 = 60;
+        let r50_60 = a2 + (b2 - a2) * Math.random();
+        console.log("the random number is ", r50_60)
+    </script>
+</body>
+
+</html>

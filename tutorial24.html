@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css disply property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        img {
+            width: 45px;
+            display: block;
+            margin: auto;
+        }
+
+        h3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            text-align: center;
+        }
+
+        header {
+            margin: auto;
+            border: 2px solid red;
+            /* header is block element now i can set width */
+            width: 1200px;
+
+        }
+
+        .box {
+            border: 2px solid brown;
+            background-color: gray;
+            margin:4px 0px;
+            padding: 23px;
+            display:inline-block;
+            width: 33%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .container{
+            width: 1200px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="https://www.codewithharry.com/assets/img/logo.png" alt="">
+        <h3>welcom to my blog</h3>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus distinctio vero nihil sunt repellat
+                officia fugiat sed ad dolore. Quis dolorum, aperiam in nisi, itaque quia beatae tenetur eligendi nam
+                quas tempore libero dolores.</p>
+
+        </div>
+
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus distinctio vero nihil sunt repellat
+                officia fugiat sed ad dolore. Quis dolorum, aperiam in nisi, itaque quia beatae tenetur eligendi nam
+                quas tempore libero dolores.</p>
+
+        </div>
+
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus distinctio vero nihil sunt repellat
+                officia fugiat sed ad dolore. Quis dolorum, aperiam in nisi, itaque quia beatae tenetur eligendi nam
+                quas tempore libero dolores.</p>
+
+        </div>
+    </div>
+</body>
+
+</html>

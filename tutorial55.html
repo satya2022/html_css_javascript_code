@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Loops</title>
+</head>
+
+<body>
+    <div class="container">
+        this is about loop
+    </div>
+    <script>
+        // console.log('this is tutorial 55');
+        // let i = 0;
+        // for (let i = 0; i < 3; i++) {
+        //     console.log(i);
+        // }
+
+        let friends = ["rohan", "sanjeev", "sohan", "pooja", "dipiti",];
+        for (let index = 0; index < friends.length; index++) {
+            console.log("hello friend ," + friends[index]);
+        }
+
+
+        // modern for loop consept
+        let satya = ["balajee", "adresh", "manzoor", "ansh", "aaditya"];
+        satya.forEach(function f(element) {
+            console.log("using model javascript," + element);
+        });
+
+        // new modern for loop consept again
+        for (element of satya) {
+            console.log("hello friend ," + element + "to modern javascript again");
+
+        }
+        let employee = {
+            name: "Harry",
+            salary: 2,
+            channel: "CWH"
+        }
+
+        // Use this loop to iterate over objects in JavaScript
+        for (key in employee) {
+            console.log(`The ${key} of employee is ${employee[key]}`);
+        }
+
+    
+    </script>
+</body>
+
+</html>

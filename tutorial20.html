@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #accec2;
+        }
+        .container {
+            background-color: aquamarine;
+            border: 3px solid rgba(73, 175, 95);
+            /*we can set margin/padding for top, bottom,left, right like this 
+            padding-top:75px;
+            padding-bottom: 75px;
+        padding: left 34px;
+        padding-right: 34px; ;
+            */
+            padding: 26px 56px 6px 22px;
+            /* padding:top  right bottom left */
+
+            /* padding  (top/bottom) and (left/right)  write like this */
+            /* padding: 34px 44px; */
+            margin: 34px 19px;
+            border-radius: 23px;
+            width: 533px;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>this is my hading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque pariatur inventore neque obcaecati
+            quaerat ab molestias dolorem vitae, numquam beatae, at ex natus tempore dolores amet sequi laboriosam
+            facilis officia?</p>
+    </div>
+
+    <div class="container">
+        <h3>this is my hading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque pariatur inventore neque
+            obcaecati
+            quaerat ab molestias dolorem vitae, numquam beatae, at ex natus tempore dolores amet sequi laboriosam
+            facilis officia?</p>
+    </div>
+
+    <div class="container">
+        <h3>this is my hading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque pariatur inventore neque obcaecati
+            quaerat ab molestias dolorem vitae, numquam beatae, at ex natus tempore dolores amet sequi laboriosam
+            facilis officia?</p>
+    </div>
+</body>
+
+</html>

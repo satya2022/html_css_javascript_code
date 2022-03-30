@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>more on selector</title>
+    <style>
+        h1 {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+
+        }
+        
+        /* if p is right inside div then this css will be applied */
+        /* div p {
+            color: yellow;
+            background-color: darkolivegreen;
+            border: 1px solide black;
+            display: inline;
+            font-weight: bold;
+        } */
+        /* if p is right after div ,p is next sibling of div */
+        div+p {
+            color: black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>this is another para graph</p>
+                </li>
+                <li>this will not get affected</li>
+            </ul>
+            <p>this is para graph</p>
+        </div>
+        <p>this is another para graph</p>
+    </div>
+    <p>this is outer most para graph</p>
+</body>
+
+</html>

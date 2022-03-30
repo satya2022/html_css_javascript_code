@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js events</title>
+    <style>
+        #btn {
+            background-color: white;
+            border: 1px solid black;
+            color: red;
+            font-weight: bold;
+            padding: 10px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        #btn:hover {
+            background-color: aqua;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Broser events:
+    click
+    contextmenu:
+    mouseover/ mouseout:
+    mousedown/mouseup:
+    mousemove:
+
+    submit:
+    facus:
+    domcontentloaded:
+
+    transitionend: -->
+
+    <div class="container">
+        <h1>this is hadding</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolore numquam nemo ullam, ex veniam
+            quod
+            magni architecto fuga officia. Fuga qui optio accusamus corporis inventore odit voluptas quisquam
+            repellat harum dolorem, reiciendis suscipit consequatur eligendi autem ducimus quibusdam quasi cum vero.
+            Blanditiis soluta nesciunt repellat veniam voluptates et pariatur hic corrupti vitae. Exercitationem
+            rerum cum consectetur porro, fugit pariatur ratione quae ducimus nobis suscipit quasi dolorum maiores id
+            veniam illo vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nemo rem unde, dolorum
+            harum explicabo fuga numquam vel recusandae. At similique repudiandae, sed voluptatibus qui accusamus
+            perspiciatis et recusandae repellendus dolores ducimus? Quis doloremque suscipit sunt repellat perferendis
+            voluptatibus optio consectetur dignissimos ad delectus. Tempore quos maxime dicta, illo pariatur distinctio
+            odio! Consectetur tempore officiis cumque repellat tenetur, eius fugit labore vel impedit quam quaerat
+            voluptatum nostrum laudantium laboriosam id inventore harum illo saepe nemo dolor temporibus ipsum magnam
+            ipsam. Suscipit, voluptas. Laudantium mollitia voluptates adipisci repellendus excepturi, nihil
+            exercitationem laborum ex animi dignissimos dolore magni, nisi recusandae cumque molestias, deserunt ipsam?
+            Neque similique impedit inventore tenetur enim nam suscipit ratione at voluptatem quaerat, doloremque et
+            alias sequi consectetur, porro eligendi temporibus, aut deleniti! Placeat, repellat. Debitis nulla vel,
+            officiis, quisquam quia iure non soluta porro voluptatibus molestias ipsam aspernatur iste veritatis ex
+            laborum tenetur!</p>
+        <button id="btn" onclick="togglehide()">show hide</button>
+    </div>
+    <script>
+        function togglehide() {
+            let btn = document.getElementById(`btn`);
+            let para = document.getElementById(`para`);
+
+            if (para.style.display !== 'none') {
+                para.style.display = 'none';
+            }
+            else{
+                para.style.display = 'block';
+
+            }
+        }
+    </script>
+</body>
+
+</html>

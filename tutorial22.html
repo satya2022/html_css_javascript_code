@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seudo selector and more designing</title>
+    <style>
+        .container {
+            border: 3px solid green;
+            margin: 12px auto;
+            padding: 12px 3px;
+            background-color: rgb(151, 146, 117);
+            width: 666px;
+        }
+       .btn:hover{
+           color:salmon;
+           background-color:greenyellow;
+           border: 2px solid black;
+       }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:visited {
+            background-color: yellow;
+        }
+
+        a:active {
+            background-color: rgb(105, 172, 172);
+        }
+
+        /* seudo selector */
+        a:hover {
+            color: green;
+            background-color: rgb(218, 212, 224);
+        }
+
+        .btn {
+            background-color: rgb(153, 153, 184);
+            border: none;
+            padding: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            border: radius 4px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my hadding</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quod ipsam ratione quis sint! Nam quaerat,
+            iure
+            delectus exercitationem perferendis et assumenda quos minus odio fuga nihil itaque quia ad, sint minima?
+            Quidem
+            consequatur optio laudantium odio dignissimos, suscipit ducimus tempore quibusdam rerum quos recusandae
+            dicta
+            animi dolorum, voluptatibus quam .</p>
+        <a href="https://www.google.com/" class="btn">red more</a>
+        <button class="btn">contyact as</button>
+
+    </div>
+</body>
+
+</html>

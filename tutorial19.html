@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>height,width,border and background</title>
+    <style>
+        #firstpara {
+            background-color: red;
+            height: 100px;
+            width: 300px;
+            border-width: 4px;
+            border-color: green;
+            border-style: solid;
+            /* border: 4px solide green;   width,color,style in  one line; */
+            border-radius: 11px;
+
+        }
+
+        #secondpara {
+            background-color: pink;
+            height: 100px;
+            width: 300px;
+            border-top: 2px solid violet;
+            border-right: 2px solid rgb(130, 238, 135);
+            border-bottom: 2px solid rgb(238, 130, 238);
+            border-left: 2px solid rgb(227, 238, 130);
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+        }
+
+        #thirdpara {
+            height: 100px;
+            width: 300px;
+            background-image: ("https://image.shutterstock.com/image-photo/pretty-smiling-joyfully-female-fair-600w-776697943.jpg");
+            border: 2px solid red;
+            background-repeat: no-repeat;
+            /* repeat-x and repeat-y will make it repeat on x and y */
+            background-position: 122px top;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>this is heding </h3>
+    <p id="firstpara">this is paragraph</p>
+
+    <h3>this is second heding </h3>
+    <p id="secondpara">this is my second paragraph</p>
+
+    <h3>this is third heding </h3>
+    <p id="thirdpara">this is my third paragraph</p>
+</body>
+
+</html>

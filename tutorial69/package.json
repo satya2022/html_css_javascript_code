@@ -1,0 +1,18 @@
+{
+  "name": "tutorial69",
+  "version": "1.0.0",
+  "description": "this is the best package ever built by someone",
+  "main": "tutorial69.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "satya",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "slugify": "^1.6.0"
+  }
+}

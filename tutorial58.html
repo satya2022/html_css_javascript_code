@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script setTimeOut and clirtimeout</title>
+</head>
+
+<body>
+    <div class="container">
+        this is a container
+    </div>
+    <script>
+        console.log('this is tutorial 58');
+
+        // setrtimeout....Allowus to run the functions once after the interval of time
+        //clirtimeout....Allowus to run the functions once repeatedly after the interval of time
+        function greet(name,bytext) {
+            console.log("hello goodmorning" + name+""+bytext);
+        }
+        // greet();
+        setTimeout(greet, 5000, "satya","take care");
+
+
+        //setTimeout(greet(),1200);-->wrong as it is calling the function inside setTime
+    </script>
+</body>
+
+</html>

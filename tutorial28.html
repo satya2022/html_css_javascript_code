@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flaxbox tutorial</title>
+    <style>
+        .container {
+            height: 320px;
+            width: 100%;
+            border: 2px solid black;
+            /* initilize a container as a flax box */
+            display: flex;
+            /* flx proparties for flax container */
+
+            /* defacult value of flex direction is row */
+            flex-direction: row;
+            /* flex-direction:column;
+            flex-direction:row-reverse; */
+
+            flex-wrap: wrap;
+            /* flex-flow:row-reverse  no wrap ; */
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-evenly;
+            /* justify-content: space-around; */
+            align-items:center;
+            align-items:flex-end;
+            align-items:stretch;
+
+        }
+
+        .item {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid green;
+            margin: 10px;
+            padding: 3px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this is flax box tutorial</h1>
+    <div class="container">
+        <div class="item" id="item-1">first box </div>
+        <div class="item" id="item-2">second box</div>
+        <div class="item" id="item-3">third box</div>
+        <div class="item" id="item-4">fourth box</div>
+        <div class="item" id="item-5">fiveth box</div>
+        <div class="item" id="item-6">sixth box</div>
+    </div>
+</body>
+
+</html>

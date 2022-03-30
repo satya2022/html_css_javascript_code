@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes and Animation</title>
+    <style>
+        .container {
+            /* display: flex; */
+            background-color: yellowgreen;
+        }
+
+        .box {
+            background-color: gray;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            /* animation-name: satya1; */
+            animation-name: satya2;
+            animation-duration: 8s;
+            /* animation-iteration-count: 3; */
+            /* animation-iteration-count: infinite; */
+            /* animation-fill-mode: forwards; */
+            animation-fill-mode: alternate;
+            /* animation-timing-function: ease-in-out; */
+            /* animation-delay: 3s;  */
+            /* animation-direction: reverse; */
+
+        }
+
+        @keyframes satya2 {
+            0% {
+                top: opx;
+                left: 0px;
+            }
+
+            25% {
+                top: 250px;
+                left: 0px
+            }
+
+            75% {
+                top: 250px;
+                left: 250px
+            }
+
+            100% {
+                top: 0px;
+                left: 250px
+            }
+        }
+
+
+        @keyframes satya1 {
+            form {
+                width: 250px;
+            }
+
+            to {
+                width: 1300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">this is box</div>
+
+    </div>
+</body>
+
+</html>

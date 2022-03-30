@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>befor and after pseudo selector</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: aqua;
+        }
+
+        section {
+
+            position: absolute;
+            top: -38px;
+            margin: 143px;
+            height: 344px;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            margin-top: 3px 23px;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Montserrat Alternates', sans-serif;
+
+
+        }
+
+        .navigation {
+            background-color: rgb(212, 156, 34);
+            display: flex;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+
+        li {
+            list-style: none;
+            padding: 16px 23px;
+
+
+        }
+
+        /* section::before {
+            content: 'this is a before content';
+        } */
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        header ::before {
+            background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            content: "";
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nev class="nevbar">
+            <ul class="navigation">
+                <li class="item">home</li>
+                <li class="item">about</li>
+                <li class="item">services</li>
+                <li class="item">content us</li>
+            </ul>
+        </nev>
+    </header>
+    <section>
+        <h1>welcome to coding world</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde repellat repellendus, commodi
+            asperiores animi neque amet quisquam voluptatum alias nobis nihil doloribus sunt inventore temporibus et
+            tempora perspiciatis quis omnis consequatur officia numquam.</p>
+
+    </section>
+
+</body>
+
+</html>

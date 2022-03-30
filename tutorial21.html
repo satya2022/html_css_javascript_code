@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 980px;
+            border: 5px solid purple;
+            margin: auto;
+
+        }
+
+        .item {
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(207, 188, 194);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+
+        }
+
+        #computer {
+            float: left;
+            clear: right;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+
+        /* text */
+        p,
+        h3 {
+            /* text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            width: 455px;
+            margin: auto;
+        }
+    </style>
+</head>
+<div class="container">
+    <h1>welcome to my store</h1>
+</div>
+
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus earum
+                consequatur quasi culpa qui laudantium dicta illo perferendis inventore ullam nobis, iusto, eius
+                pariatur eos asperiores. Tempore tenetur consequatur . Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Officiis ex voluptatum dolore reiciendis accusamus aliquid nulla eius? Labore culpa
+                minima a est nisi! Nisi eveniet quas debitis incidunt, beatae reprehenderit!</p>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div id="computer" class="item">
+            <h3>fruits</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus earum
+                consequatur quasi culpa qui laudantium dicta illo perferendis inventore ullam nobis, iusto, eius
+                pariatur eos asperiores. Tempore tenetur consequatur nisi. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Facere dolorem ut debitis vero eaque commodi numquam quia ea, recusandae mollitia ex
+                in sapiente! Exercitationem perferendis laborum possimus architecto sint corrupti, id earum blanditiis.
+                Praesentium.</p>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div id="stationary" class="item">
+            <h3>fruits</h3>
+            <p id="stationary" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus earum
+                consequatur quasi culpa qui laudantium dicta illo perferendis inventore ullam nobis, iusto, eius
+                pariatur eos asperiores. Tempore tenetur consequatur nisi. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Tempore magni voluptas facilis rerum eligendi, aperiam alias cum eos accusamus at
+                illum vero ducimus voluptatem provident, consequuntur dolorem unde iure voluptate sed minus, impedit
+                tenetur.</p>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
